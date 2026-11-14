@@ -23,6 +23,7 @@ with a Quest or another inside-out headset in SteamVR.**
   </tr>
 </table>
 
+[![CI](https://github.com/dev-okinawa/OVR-Driftless/actions/workflows/ci.yml/badge.svg)](https://github.com/dev-okinawa/OVR-Driftless/actions/workflows/ci.yml)
 ![Status: early development](https://img.shields.io/badge/status-early%20development-orange)
 ![Platform: Windows](https://img.shields.io/badge/platform-Windows-0078D4)
 ![SteamVR: OpenVR](https://img.shields.io/badge/SteamVR-OpenVR-1b2838?logo=steam&logoColor=white)
@@ -222,6 +223,13 @@ Start at [docs/README.md](docs/README.md).
   without a tracker on the headset, using a waist tracker
 - [QuestLHSync](https://github.com/CreoleVR/QuestLHSync) — alignment through the
   headset cameras; needs root
+
+## Contributing
+
+Bug reports, measurements from real hardware and pull requests are welcome. See
+[CONTRIBUTING.md](.github/CONTRIBUTING.md), the
+[Code of Conduct](.github/CODE_OF_CONDUCT.md) and the
+[Security Policy](.github/SECURITY.md).
 
 ## License
 

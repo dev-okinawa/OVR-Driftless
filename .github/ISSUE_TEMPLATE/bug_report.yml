@@ -1,0 +1,51 @@
+name: Bug report
+description: Something works differently from what the README or the documents say
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Run `npm run dev`
+        2. Open Settings and choose …
+        3. …
+    validations:
+      required: true
+  - type: dropdown
+    id: source
+    attributes:
+      label: Data source
+      options:
+        - SteamVR (live)
+        - Fake SteamVR (`npm run dev:fake`)
+        - Simulator
+        - Replay of a recording
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware
+      description: Needed for live SteamVR reports. Headset, streaming software, trackers, base stations.
+      placeholder: Quest 3, Virtual Desktop, 3 × VIVE Tracker 3.0, 2 × base station 2.0
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Release tag or commit hash.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Output of the core in the terminal and errors from the browser console.
+      render: text

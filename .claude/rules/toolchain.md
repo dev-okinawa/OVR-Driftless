@@ -2,7 +2,7 @@
 
 All code is under `source/`, an npm workspace with two packages: `web` (the
 interface) and `core` (the SteamVR connection). Run every command from `source/`.
-The project root holds only `README.md`, `CLAUDE.md`, `LICENSE`, `.gitignore`, `docs/` and `.claude/`; put
+The project root holds only `README.md`, `CLAUDE.md`, `LICENSE`, `.gitignore`, `.github/`, `docs/` and `.claude/`; put
 no code or package files there.
 
 Node 24, npm 11.

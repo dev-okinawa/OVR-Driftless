@@ -15,4 +15,5 @@ documents are in `.claude/rules/documentation.md`.
 | [research/space-alignment.md](research/space-alignment.md) | Why the tracking spaces drift apart, prior art, candidate alignment methods |
 | [research/space-calibrator-internals.md](research/space-calibrator-internals.md) | How Space Calibrator 2.0 changes poses, calibrates and handles origin changes, read from its source |
 | [research/questlhsync-spacesync-internals.md](research/questlhsync-spacesync-internals.md) | How QuestLHSync and OpenVR-SpaceSync align the spaces, read from their source, and whether they fit |
+| [infrastructure/github.md](infrastructure/github.md) | The GitHub repository: continuous integration and community files |
 | [_templates/](_templates/) | One template per document type |
