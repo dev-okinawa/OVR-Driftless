@@ -1,0 +1,8 @@
+.emptyHint {
+  display: grid;
+  justify-items: center;
+  gap: var(--ui-space-2);
+  text-align: center;
+  /* The chart's empty layer ignores the pointer; the button inside must not. */
+  pointer-events: auto;
+}

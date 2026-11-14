@@ -1,0 +1,19 @@
+/* Design tokens come from the design kit; this file adds only page-wide rules. */
+@import '@ai-designer/ui/tokens.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--ui-color-surface-scene);
+}

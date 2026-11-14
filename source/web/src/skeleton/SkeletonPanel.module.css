@@ -1,0 +1,12 @@
+.group {
+  display: grid;
+  gap: var(--ui-space-2);
+  min-width: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--ui-space-2);
+}

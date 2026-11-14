@@ -1,0 +1,10 @@
+.plate {
+  width: min(56rem, 100%);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--ui-space-3);
+}

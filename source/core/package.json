@@ -1,0 +1,26 @@
+{
+  "name": "@ovr-driftless/core",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Background process that reads device poses from SteamVR",
+  "type": "module",
+  "exports": {
+    "./protocol": "./src/protocol.ts"
+  },
+  "scripts": {
+    "start": "node src/server.ts",
+    "start:fake": "node src/server.ts --fake-steamvr",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test \"src/**/*.test.ts\"",
+    "probe": "node src/probe.mjs"
+  },
+  "dependencies": {
+    "koffi": "^3.3.8",
+    "ws": "^8.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/ws": "^8.18.2",
+    "typescript": "^7.0.2"
+  }
+}

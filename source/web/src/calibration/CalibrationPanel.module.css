@@ -1,0 +1,44 @@
+/* The stage sizes its panel column from the top-end row; the panel fills it. */
+.panel {
+  width: 100%;
+}
+
+.stack {
+  display: grid;
+  gap: var(--ui-space-4);
+  align-content: start;
+  min-width: 0;
+}
+
+.group {
+  display: grid;
+  gap: var(--ui-space-2);
+  min-width: 0;
+}
+
+.centered {
+  display: grid;
+  justify-items: center;
+  gap: var(--ui-space-4);
+}
+
+.pair {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--ui-space-3);
+}
+
+.device {
+  display: flex;
+  align-items: center;
+  gap: var(--ui-space-2);
+}
+
+.footerPrimary {
+  flex: 1;
+}
+
+.footerSecondary {
+  flex: none;
+}

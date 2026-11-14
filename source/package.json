@@ -1,0 +1,19 @@
+{
+  "name": "ovr-driftless",
+  "private": true,
+  "description": "Keeps the Lighthouse tracking space aligned with a non-Lighthouse headset's tracking space",
+  "workspaces": [
+    "web",
+    "core"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w web",
+    "dev:fake": "npm run dev:fake -w web",
+    "core": "npm run start -w core",
+    "core:fake": "npm run start:fake -w core",
+    "build": "npm run build -w web",
+    "typecheck": "npm run typecheck --workspaces",
+    "test": "npm run test --workspaces",
+    "probe": "npm run probe -w core"
+  }
+}

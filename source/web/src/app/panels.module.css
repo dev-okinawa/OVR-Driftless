@@ -1,0 +1,25 @@
+/* The stage sizes its panel column from the top-end row; a panel fills it. */
+.panel {
+  width: 100%;
+}
+
+.stack {
+  display: grid;
+  gap: var(--ui-space-4);
+  align-content: start;
+  min-width: 0;
+  padding-block-start: var(--ui-space-3);
+}
+
+.group {
+  display: grid;
+  gap: var(--ui-space-2);
+  min-width: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--ui-space-2);
+}
